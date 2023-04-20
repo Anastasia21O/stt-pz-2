@@ -1,11 +1,23 @@
 /**
+ * This function must sum two numbers and return result of subtraction
+ * @param a {number|string}
+ * @param b {number|string}
+ * @returns {number}
+ */
+
+function sum(a, b) {
+  return Number(a) + Number(b)
+}
+
+/**
  * This function must subtraction two numbers and return result of subtraction
  * @param a {number|string}
  * @param b {number|string}
  * @returns {number}
  */
+
 function subtraction(a, b) {
-  // Write your code here
+  return Number(a) - Number(b)
 }
 
 /**
@@ -15,7 +27,7 @@ function subtraction(a, b) {
  * @returns {number}
  */
 function division(a, b) {
-  // Write your code here
+  return Number(a) / Number(b)
 }
 
 /**
@@ -25,7 +37,7 @@ function division(a, b) {
  * @returns {number}
  */
 function multiplication(a, b) {
-  // Write your code here
+  return Number(a) * Number(b)
 }
 
 /**
@@ -35,7 +47,7 @@ function multiplication(a, b) {
  * @returns {number}
  */
 function percentage(value, percent) {
-  // Write your code here
+  return Number(value) * Number(percent) / 100
 }
 
 /**
@@ -44,7 +56,7 @@ function percentage(value, percent) {
  * @returns {number}
  */
 function getWholeNumberPart(number) {
-  // Write your code here
+  return Math.trunc(Number(number))
 }
 
 /**
